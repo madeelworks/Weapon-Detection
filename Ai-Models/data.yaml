@@ -1,0 +1,14 @@
+test: dataset/test/images
+train: dataset/train/images
+val: dataset/valid/images
+
+
+nc: 2
+names: ['person', 'weapon']
+
+roboflow:
+  workspace: weapon-detection-cctv
+  project: weapon-detection-cctv-v3-dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/weapon-detection-cctv/weapon-detection-cctv-v3-dataset/dataset/1
