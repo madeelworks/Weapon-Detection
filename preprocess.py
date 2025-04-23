@@ -4,7 +4,7 @@ import shutil
 import numpy as np
 
 # === CONFIGURATION ===
-base_dataset_path = r'C:\Users\HP-PC\Desktop\final-year-project\Weapon-Detection\Ai-Models\Assets\Dataset\NewDataset'
+base_dataset_path = r'C:\Users\HP-PC\Desktop\final-year-project\Weapon-Detection\Ai-Models\Assets\Dataset'
 
 # Output folders
 preprocessed_base = os.path.join(base_dataset_path, 'PreprocessedImages')

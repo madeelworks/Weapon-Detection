@@ -1,7 +1,11 @@
-test: dataset/test/images
-train: dataset/train/images
-val: dataset/valid/images
 
+
+train: ../PreprocessedImages/train  # path to train images
+val: ../PreprocessedImages/valid    # path to val images
+
+# Add these new lines to specify label directories
+train_labels: ../YoloAnnotations/train
+val_labels: ../YoloAnnotations/valid
 
 nc: 2
 names: ['person', 'weapon']
